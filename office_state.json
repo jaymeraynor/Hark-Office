@@ -1,10 +1,10 @@
 {
- "updated": "Sun 2026-11-08 12:25 PM CST (UTC+08:00)",
+ "updated": "2026-11-08 18:00 CST",
  "roles": {
   "gm": {
    "name": "總經理",
    "status": "working",
-   "task": "追蹤 TW_Stock 三階段進度（每日 18:00 回報）"
+   "task": "每日 18:00 回報 TW_Stock 進度；等 Roy 審 PR #1"
   },
   "marketing": {
    "name": "行銷專員",
@@ -24,7 +24,7 @@
   "security": {
    "name": "資訊安全專員",
    "status": "idle",
-   "task": "待命"
+   "task": "待命（pandas/pyarrow 已有條件放行）"
   },
   "ops": {
    "name": "專業經理人",
@@ -39,7 +39,7 @@
   "trader": {
    "name": "程式交易專員",
    "status": "waiting",
-   "task": "階段1完成：架構說明＋30項對照已交 Roy，等定義確認"
+   "task": "每日更新程式 PR #1（Codex 3 輪無阻擋）待 Roy merge＋設 R2 secrets"
   },
   "designer": {
    "name": "美編專員",
@@ -71,6 +71,18 @@
    "from": "trader",
    "to": "gm",
    "say": "階段1說明與30項對照完成（Codex已核對），待Roy確認定義與分點資料來源"
+  },
+  {
+   "time": "Sun 2026-11-08 5:53 PM CST (UTC+08:00)",
+   "from": "trader",
+   "to": "gm",
+   "say": "每日更新程式完成，Codex 審 3 輪通過，已開草稿 PR #1"
+  },
+  {
+   "time": "Sun 2026-11-08 6:00 PM CST (UTC+08:00)",
+   "from": "gm",
+   "to": "trader",
+   "say": "等 Roy merge 與設定 secrets，再手動測試排程"
   }
  ]
 }
