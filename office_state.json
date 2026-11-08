@@ -1,0 +1,18 @@
+{
+  "updated": "2026-11-08T11:40:00+08:00",
+  "roles": {
+    "gm": {"name": "總經理", "status": "idle", "task": "待命"},
+    "marketing": {"name": "行銷專員", "status": "idle", "task": "待命"},
+    "keyword": {"name": "關鍵字研究專員", "status": "idle", "task": "待命"},
+    "programmer": {"name": "程式專員", "status": "idle", "task": "待命"},
+    "security": {"name": "資訊安全專員", "status": "working", "task": "審查 tw-financial-report 套件與腳本"},
+    "ops": {"name": "專業經理人", "status": "idle", "task": "待命"},
+    "analyst": {"name": "資料分析專員", "status": "idle", "task": "待命"},
+    "trader": {"name": "程式交易專員", "status": "working", "task": "台股資料層：TWSE/TPEx 財報與月營收"},
+    "designer": {"name": "美編專員", "status": "idle", "task": "待命"}
+  },
+  "events": [
+    {"time": "2026-11-07T20:25:00+08:00", "from": "gm", "to": "trader", "say": "參考開源財報庫，先搭資料層"},
+    {"time": "2026-11-07T20:25:00+08:00", "from": "trader", "to": "security", "say": "請審查套件與腳本"}
+  ]
+}
