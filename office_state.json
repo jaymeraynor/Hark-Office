@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08 18:00 CST",
+ "updated": "Wed 2026-11-11 2:15 PM CST (UTC+08:00)",
  "roles": {
   "gm": {
    "name": "總經理",
@@ -45,6 +45,11 @@
    "name": "美編專員",
    "status": "idle",
    "task": "待命"
+  },
+  "erp": {
+   "name": "ERP導入專員",
+   "status": "working",
+   "task": "Odoo 19 導入：查證版本差異、擬導入計畫"
   }
  },
  "events": [
@@ -83,6 +88,12 @@
    "from": "gm",
    "to": "trader",
    "say": "等 Roy merge 與設定 secrets，再手動測試排程"
+  },
+  {
+   "time": "Wed 2026-11-11 2:15 PM CST (UTC+08:00)",
+   "from": "gm",
+   "to": "erp",
+   "say": "新進同仁：負責 Odoo 19 導入專案"
   }
  ]
 }
