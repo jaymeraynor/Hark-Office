@@ -2,15 +2,15 @@ from PIL import Image, ImageDraw
 import json,sys
 D='/workspace/built/sites/82bece3a-e2c8-4974-8224-aeb2cf31cfbc/'
 bg=Image.open(D+'office_bg.png').convert('RGBA'); W,H=bg.size
-SIT={'gm':[47.97,27.0],'marketing':[33.6,53.4],'keyword':[21.4,64.8],'programmer':[38.5,66.7],'security':[31.50,78.91],'operations':[52.2,86.2],'analyst':[42.9,96.1],'trader':[55.1,99.1],'designer':[84.56,92.71]}
-SH={'gm':9.4,'marketing':17.2,'keyword':17.6,'programmer':17.5,'security':14.84,'operations':17.5,'analyst':17.6,'trader':14.8,'designer':13.0}
-SRC={'gm':'gm_sit_nokb.png','marketing':'marketing_back.png','keyword':'keyword_back.png','programmer':'programmer_side.png','security':'security_sit.png','operations':'operations_side.png','analyst':'analyst_back.png','trader':'trader_sit.png','designer':'designer_back_r.png'}
+SIT={'gm':[47.97,27.0],'marketing':[33.6,53.4],'keyword':[21.4,64.8],'programmer':[38.5,66.7],'security':[31.50,78.91],'operations':[52.2,86.2],'analyst':[42.9,96.1],'trader':[55.1,99.1],'designer':[84.56,92.71],'erp':[58.2,57.8]}
+SH={'gm':9.4,'marketing':17.2,'keyword':17.6,'programmer':17.5,'security':14.84,'operations':17.5,'analyst':17.6,'trader':14.8,'designer':13.0,'erp':15}
+SRC={'gm':'gm_sit_nokb.png','marketing':'marketing_back.png','keyword':'keyword_back.png','programmer':'programmer_side.png','security':'security_sit.png','operations':'operations_side.png','analyst':'analyst_back.png','trader':'trader_sit.png','designer':'designer_back_r.png','erp':'erp_sit.png'}
 MIRROR={'operations'}
 ZS={'designer':955}
 items=[]
 for k,(x,y) in SIT.items():
     items.append((ZS.get(k,round(y*10)),'actor',k))
-for name,l,t,w,z in [('design_desk3.png',82.12,74.87,10.17,950),('design_chair3.png',82.12,74.87,10.17,960),('trader_desk_occluder.png',51.7,87,20.3,1500),('security_desk_occluder.png',28.05,67.06,12.72,835)]:
+for name,l,t,w,z in [('design_desk3.png',82.12,74.87,10.17,950),('design_chair3.png',82.12,74.87,10.17,960),('trader_desk_occluder.png',51.7,87,20.3,1500),('security_desk_occluder.png',28.05,67.06,12.72,835),('erp_table_occluder.png',58.14,53.78,11.99,579)]:
     items.append((z,'prop',(name,l,t,w)))
 items.sort(key=lambda i:i[0])
 state={}
