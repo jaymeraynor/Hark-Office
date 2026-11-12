@@ -1,99 +1,99 @@
 {
- "updated": "Wed 2026-11-11 2:15 PM CST (UTC+08:00)",
- "roles": {
-  "gm": {
-   "name": "總經理",
-   "status": "working",
-   "task": "每日 18:00 回報 TW_Stock 進度；等 Roy 審 PR #1"
+  "updated": "Thu 2026-11-12 8:05 PM CST (UTC+08:00)",
+  "roles": {
+    "gm": {
+      "name": "總經理",
+      "status": "working",
+      "task": "每日 18:00 回報 TW_Stock 進度；等 Roy 審 PR #1"
+    },
+    "marketing": {
+      "name": "行銷專員",
+      "status": "waiting",
+      "task": "11/12 粉專短文「演色性 Ra 與 R9」草稿待 Roy 同意發布"
+    },
+    "keyword": {
+      "name": "關鍵字研究專員",
+      "status": "idle",
+      "task": "待命"
+    },
+    "programmer": {
+      "name": "程式專員",
+      "status": "idle",
+      "task": "待命"
+    },
+    "security": {
+      "name": "資訊安全專員",
+      "status": "idle",
+      "task": "待命（pandas/pyarrow 已有條件放行）"
+    },
+    "ops": {
+      "name": "專業經理人",
+      "status": "idle",
+      "task": "待命"
+    },
+    "analyst": {
+      "name": "資料分析專員",
+      "status": "idle",
+      "task": "待命"
+    },
+    "trader": {
+      "name": "程式交易專員",
+      "status": "waiting",
+      "task": "每日更新程式 PR #1（Codex 3 輪無阻擋）待 Roy merge＋設 R2 secrets"
+    },
+    "designer": {
+      "name": "美編專員",
+      "status": "idle",
+      "task": "待命"
+    },
+    "erp": {
+      "name": "ERP導入專員",
+      "status": "working",
+      "task": "Odoo 19 導入：查證版本差異、擬導入計畫"
+    }
   },
-  "marketing": {
-   "name": "行銷專員",
-   "status": "idle",
-   "task": "待命"
-  },
-  "keyword": {
-   "name": "關鍵字研究專員",
-   "status": "idle",
-   "task": "待命"
-  },
-  "programmer": {
-   "name": "程式專員",
-   "status": "idle",
-   "task": "待命"
-  },
-  "security": {
-   "name": "資訊安全專員",
-   "status": "idle",
-   "task": "待命（pandas/pyarrow 已有條件放行）"
-  },
-  "ops": {
-   "name": "專業經理人",
-   "status": "idle",
-   "task": "待命"
-  },
-  "analyst": {
-   "name": "資料分析專員",
-   "status": "idle",
-   "task": "待命"
-  },
-  "trader": {
-   "name": "程式交易專員",
-   "status": "waiting",
-   "task": "每日更新程式 PR #1（Codex 3 輪無阻擋）待 Roy merge＋設 R2 secrets"
-  },
-  "designer": {
-   "name": "美編專員",
-   "status": "idle",
-   "task": "待命"
-  },
-  "erp": {
-   "name": "ERP導入專員",
-   "status": "working",
-   "task": "Odoo 19 導入：查證版本差異、擬導入計畫"
-  }
- },
- "events": [
-  {
-   "time": "2026-11-07T20:25:00+08:00",
-   "from": "gm",
-   "to": "trader",
-   "say": "參考開源財報庫，先搭資料層"
-  },
-  {
-   "time": "2026-11-07T20:25:00+08:00",
-   "from": "trader",
-   "to": "security",
-   "say": "請審查套件與腳本"
-  },
-  {
-   "time": "2026-11-08T12:03:00+08:00",
-   "from": "gm",
-   "to": "trader",
-   "say": "先讀懂 TW_Stock，再參考開源庫修改，最後加指標做權重對比"
-  },
-  {
-   "time": "Sun 2026-11-08 12:25 PM CST (UTC+08:00)",
-   "from": "trader",
-   "to": "gm",
-   "say": "階段1說明與30項對照完成（Codex已核對），待Roy確認定義與分點資料來源"
-  },
-  {
-   "time": "Sun 2026-11-08 5:53 PM CST (UTC+08:00)",
-   "from": "trader",
-   "to": "gm",
-   "say": "每日更新程式完成，Codex 審 3 輪通過，已開草稿 PR #1"
-  },
-  {
-   "time": "Sun 2026-11-08 6:00 PM CST (UTC+08:00)",
-   "from": "gm",
-   "to": "trader",
-   "say": "等 Roy merge 與設定 secrets，再手動測試排程"
-  },
-  {
-   "time": "Wed 2026-11-11 2:15 PM CST (UTC+08:00)",
-   "from": "gm",
-   "to": "erp",
-   "say": "新進同仁：負責 Odoo 19 導入專案"
-  }
- ]
+  "events": [
+    {
+      "time": "2026-11-07T20:25:00+08:00",
+      "from": "gm",
+      "to": "trader",
+      "say": "參考開源財報庫，先搭資料層"
+    },
+    {
+      "time": "2026-11-07T20:25:00+08:00",
+      "from": "trader",
+      "to": "security",
+      "say": "請審查套件與腳本"
+    },
+    {
+      "time": "2026-11-08T12:03:00+08:00",
+      "from": "gm",
+      "to": "trader",
+      "say": "先讀懂 TW_Stock，再參考開源庫修改，最後加指標做權重對比"
+    },
+    {
+      "time": "Sun 2026-11-08 12:25 PM CST (UTC+08:00)",
+      "from": "trader",
+      "to": "gm",
+      "say": "階段1說明與30項對照完成（Codex已核對），待Roy確認定義與分點資料來源"
+    },
+    {
+      "time": "Sun 2026-11-08 5:53 PM CST (UTC+08:00)",
+      "from": "trader",
+      "to": "gm",
+      "say": "每日更新程式完成，Codex 審 3 輪通過，已開草稿 PR #1"
+    },
+    {
+      "time": "Sun 2026-11-08 6:00 PM CST (UTC+08:00)",
+      "from": "gm",
+      "to": "trader",
+      "say": "等 Roy merge 與設定 secrets，再手動測試排程"
+    },
+    {
+      "time": "Wed 2026-11-11 2:15 PM CST (UTC+08:00)",
+      "from": "gm",
+      "to": "erp",
+      "say": "新進同仁：負責 Odoo 19 導入專案"
+    }
+  ]
 }
