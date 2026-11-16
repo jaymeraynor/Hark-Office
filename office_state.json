@@ -1,5 +1,5 @@
 {
-  "updated": "Thu 2026-11-12 8:05 PM CST (UTC+08:00)",
+  "updated": "Mon 2026-11-16 5:30 PM CST (UTC+08:00)",
   "roles": {
     "gm": {
       "name": "總經理",
@@ -50,6 +50,11 @@
       "name": "ERP導入專員",
       "status": "working",
       "task": "Odoo 19 導入：查證版本差異、擬導入計畫"
+    },
+    "webmaint": {
+      "name": "網頁維護專員",
+      "status": "idle",
+      "task": "待命：等待網站更新需求"
     }
   },
   "events": [
