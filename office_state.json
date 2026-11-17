@@ -1,10 +1,10 @@
 {
- "updated": "Tue 2026-11-17 12:15 PM CST (UTC+08:00)",
+ "updated": "2026-11-17 18:00 CST",
  "roles": {
   "gm": {
    "name": "總經理",
-   "status": "working",
-   "task": "每日進度回報"
+   "status": "idle",
+   "task": "11/17 日報：等 Roy 決定 PR 合併順序"
   },
   "marketing": {
    "name": "行銷專員",
@@ -38,8 +38,8 @@
   },
   "trader": {
    "name": "程式交易專員",
-   "status": "working",
-   "task": "PR#2 Roy30 篩選；分點改用 Yahoo"
+   "status": "idle",
+   "task": "等 Roy 決定 #2→#3→#5 合併"
   },
   "designer": {
    "name": "美編專員",
@@ -111,6 +111,7 @@
    "from": "gm",
    "to": "warehouse",
    "say": "新進同仁：負責整理倉庫（庫存整理專案）"
-  }
+  },
+  "11/17 18:00 GM 日報"
  ]
 }
