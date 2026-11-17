@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T18:05+08:00",
+ "updated": "Tue 2026-11-17 12:15 PM CST (UTC+08:00)",
  "roles": {
   "gm": {
    "name": "總經理",
@@ -55,6 +55,11 @@
    "name": "網頁維護專員",
    "status": "idle",
    "task": "待命：等待網站更新需求"
+  },
+  "warehouse": {
+   "name": "倉管專員",
+   "status": "working",
+   "task": "規劃貨架儲位：平板燈、燈管、工事燈、空台"
   }
  },
  "events": [
@@ -100,6 +105,12 @@
    "to": "erp",
    "say": "新進同仁：負責 Odoo 19 導入專案"
   },
-  "11/16 GitHub Actions 每日更新成功；PR#2 Codex r5 clean，待 Roy 確認推定參數"
+  "11/16 GitHub Actions 每日更新成功；PR#2 Codex r5 clean，待 Roy 確認推定參數",
+  {
+   "time": "Tue 2026-11-17 12:15 PM CST (UTC+08:00)",
+   "from": "gm",
+   "to": "warehouse",
+   "say": "新進同仁：負責整理倉庫（庫存整理專案）"
+  }
  ]
 }
