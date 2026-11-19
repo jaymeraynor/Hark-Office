@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19 20:05 CST",
+ "updated": "2026-11-19 21:40 CST",
  "roles": {
   "gm": {
    "name": "總經理",
@@ -38,8 +38,8 @@
   },
   "trader": {
    "name": "程式交易專員",
-   "status": "idle",
-   "task": "PR #12 已合併(main 734658e)；HF 全分點回補 R2 完成(54 日)；待主代理建 01:00 夜間排程"
+   "status": "waiting",
+   "task": "FinMind 回補 PR #15 (A, e61909b, 802 tests) 與熱冷 PR #16 (B, e61e303, 873 tests) 已開 Draft；待 Roy 決定合併 #15 後開跑回補"
   },
   "designer": {
    "name": "美編專員",
@@ -118,6 +118,12 @@
    "from": "trader",
    "to": "gm",
    "say": "PR #12 合併 734658e；全分點回補 2026-08-28~11-18 共 54 日上傳 R2（run 44363352976 成功）；需新增 01:00 週二～六 broker-nightly 排程"
+  },
+  {
+   "time": "Thu 2026-11-19 21:40 CST (UTC+08:00)",
+   "from": "trader",
+   "to": "gm",
+   "say": "Draft PR #15 finmind-backfill (Codex r7 P0=0 P1=1 已知風險) + #16 finmind-hotcold (Codex r3 P0 已修/P1=1 已知風險)；需 Roy 決定合併 #15 才能 workflow_dispatch 開跑（Sponsor 12/19 到期，約 18 天）"
   }
  ]
 }
