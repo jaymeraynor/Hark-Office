@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19 20:44 CST",
+ "updated": "2026-11-20 08:40 CST",
  "roles": {
   "gm": {
    "name": "總經理",
@@ -60,6 +60,11 @@
    "name": "倉管專員",
    "status": "working",
    "task": "規劃貨架儲位：平板燈、燈管、工事燈、空台"
+  },
+  "tender": {
+   "name": "標案小幫手",
+   "status": "idle",
+   "task": "11/20 找到 33 件照明／LED 相關新標案，已通知 Roy"
   }
  },
  "events": [
