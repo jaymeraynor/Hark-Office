@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-20 19:25 CST",
+ "updated": "2026-11-20T20:00+08:00",
  "roles": {
   "gm": {
    "name": "總經理",
-   "status": "waiting",
-   "task": "3D 倉儲 MVP v0.1 交 Roy 試用，待決定週轉率公式與 GitHub repo"
+   "status": "working",
+   "task": "20:00 進度回報"
   },
   "marketing": {
    "name": "行銷專員",
@@ -24,7 +24,7 @@
   "security": {
    "name": "資訊安全專員",
    "status": "idle",
-   "task": "已放行 three.js、SheetJS（固定版本、離線）"
+   "task": "待命"
   },
   "ops": {
    "name": "專業經理人",
@@ -38,8 +38,8 @@
   },
   "trader": {
    "name": "程式交易專員",
-   "status": "waiting",
-   "task": "FinMind 回補 PR #15 (A, e61909b, 802 tests) 與熱冷 PR #16 (B, e61e303, 873 tests) 已開 Draft；待 Roy 決定合併 #15 後開跑回補"
+   "status": "working",
+   "task": "FinMind 回補自動接續中，剩 1281 個分點日"
   },
   "designer": {
    "name": "美編專員",
@@ -153,6 +153,10 @@
    "from": "programmer",
    "to": "gm",
    "say": "3D 倉儲 MVP v0.1 完成，無頭瀏覽器測試通過"
+  },
+  {
+   "t": "2026-11-20T20:00+08:00",
+   "text": "GM 20:00 回報：回補正常，預估 12/10 完成"
   }
  ]
 }
