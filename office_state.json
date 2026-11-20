@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-20 10:00 CST",
+ "updated": "2026-11-20 19:10 CST",
  "roles": {
   "gm": {
    "name": "總經理",
-   "status": "idle",
-   "task": "11/17 日報：等 Roy 決定 PR 合併順序"
+   "status": "working",
+   "task": "派工：3D 立體倉儲管理系統"
   },
   "marketing": {
    "name": "行銷專員",
@@ -18,18 +18,18 @@
   },
   "programmer": {
    "name": "程式專員",
-   "status": "idle",
-   "task": "待命"
+   "status": "working",
+   "task": "3D 倉儲系統第一版：3D 貨架、查料號、週轉率、配置編輯"
   },
   "security": {
    "name": "資訊安全專員",
    "status": "idle",
-   "task": "待命"
+   "task": "已放行 three.js、SheetJS（固定版本、離線）"
   },
   "ops": {
    "name": "專業經理人",
-   "status": "idle",
-   "task": "待命"
+   "status": "working",
+   "task": "3D 倉儲系統產品規格 v0.1 完成（含配置編輯）"
   },
   "analyst": {
    "name": "資料分析專員",
@@ -129,6 +129,24 @@
    "from": "trader",
    "to": "gm",
    "say": "Draft PR #15 finmind-backfill (Codex r7 P0=0 P1=1 已知風險) + #16 finmind-hotcold (Codex r3 P0 已修/P1=1 已知風險)；需 Roy 決定合併 #15 才能 workflow_dispatch 開跑（Sponsor 12/19 到期，約 18 天）"
+  },
+  {
+   "time": "Fri 2026-11-20 19:10 CST (UTC+08:00)",
+   "from": "gm",
+   "to": "ops",
+   "say": "寫 3D 倉儲系統產品規格"
+  },
+  {
+   "time": "Fri 2026-11-20 19:10 CST (UTC+08:00)",
+   "from": "programmer",
+   "to": "security",
+   "say": "請審 three.js 與 SheetJS"
+  },
+  {
+   "time": "Fri 2026-11-20 19:10 CST (UTC+08:00)",
+   "from": "gm",
+   "to": "programmer",
+   "say": "用中輝 88 項常備品做第一版"
   }
  ]
 }
