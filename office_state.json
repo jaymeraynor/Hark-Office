@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-21T20:00+08:00",
+ "updated": "Sat 2026-11-21 9:05 PM CST (UTC+08:00)",
  "roles": {
   "gm": {
    "name": "總經理",
    "status": "idle",
-   "task": "等待 Roy：runner 與 PR #18"
+   "task": "巡查完成：Roy 今晚裝實體機 runner，其餘無變化"
   },
   "marketing": {
    "name": "行銷專員",
