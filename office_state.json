@@ -1,10 +1,10 @@
 {
- "updated": "Sun 2026-11-22 08:00 CST (UTC+08:00)",
+ "updated": "2026-11-22T20:00:00+08:00",
  "roles": {
   "gm": {
    "name": "總經理",
-   "status": "idle",
-   "task": "08:00 回報：Actions 仍停，等 Roy 的實體機 runner 與 SSH"
+   "status": "report",
+   "task": "20:00 進度回報：Actions 停用中，等 Roy 裝 runner"
   },
   "marketing": {
    "name": "行銷專員",
