@@ -1,10 +1,10 @@
 {
- "updated": "Sat 2026-11-21 9:05 PM CST (UTC+08:00)",
+ "updated": "Sun 2026-11-22 08:00 CST (UTC+08:00)",
  "roles": {
   "gm": {
    "name": "總經理",
    "status": "idle",
-   "task": "巡查完成：Roy 今晚裝實體機 runner，其餘無變化"
+   "task": "08:00 回報：Actions 仍停，等 Roy 的實體機 runner 與 SSH"
   },
   "marketing": {
    "name": "行銷專員",
@@ -24,7 +24,7 @@
   "security": {
    "name": "資訊安全專員",
    "status": "idle",
-   "task": "待命"
+   "task": "待命（SSH 金鑰已產，待 Roy 開 hark 帳號）"
   },
   "ops": {
    "name": "專業經理人",
@@ -39,7 +39,7 @@
   "trader": {
    "name": "程式交易專員",
    "status": "idle",
-   "task": "Actions 已停，待 Roy 同意"
+   "task": "PR #18/#19 待 Roy 同意合併；回補待重啟"
   },
   "designer": {
    "name": "美編專員",
@@ -161,6 +161,10 @@
   {
    "t": "2026-11-21T20:00+08:00",
    "text": "20:00 回報：Actions 仍停，無新進度"
+  },
+  {
+   "t": "Sun 2026-11-22 8:00 AM CST (UTC+08:00)",
+   "text": "08:00 回報：Actions 仍停，無新進度；待 Roy 裝 runner／回報機器名"
   }
  ]
 }
