@@ -1,170 +1,170 @@
 {
- "updated": "2026-11-23T20:00:00+08:00",
- "roles": {
-  "gm": {
-   "name": "總經理",
-   "status": "idle",
-   "task": "20:00 回報完成"
+  "updated": "2026-11-23 20:10",
+  "roles": {
+    "gm": {
+      "name": "總經理",
+      "status": "idle",
+      "task": "20:00 回報完成"
+    },
+    "marketing": {
+      "name": "行銷專員",
+      "status": "waiting",
+      "task": "11/23 粉專短文「碳議題 CBAM」草稿待 Roy 同意發布"
+    },
+    "keyword": {
+      "name": "關鍵字研究專員",
+      "status": "idle",
+      "task": "待命"
+    },
+    "programmer": {
+      "name": "程式專員",
+      "status": "waiting",
+      "task": "3D 倉儲 MVP v0.1 完成（Codex 審 1 輪已修），待 Roy 試用"
+    },
+    "security": {
+      "name": "資訊安全專員",
+      "status": "idle",
+      "task": "待命"
+    },
+    "ops": {
+      "name": "專業經理人",
+      "status": "idle",
+      "task": "3D 倉儲規格 v0.1 已交"
+    },
+    "analyst": {
+      "name": "資料分析專員",
+      "status": "idle",
+      "task": "待命"
+    },
+    "trader": {
+      "name": "程式交易專員",
+      "status": "working",
+      "task": "FinMind 回補持續中，預估 12/13 完成"
+    },
+    "designer": {
+      "name": "美編專員",
+      "status": "idle",
+      "task": "待命"
+    },
+    "erp": {
+      "name": "ERP導入專員",
+      "status": "working",
+      "task": "Odoo 19 導入：查證版本差異、擬導入計畫"
+    },
+    "webmaint": {
+      "name": "網頁維護專員",
+      "status": "idle",
+      "task": "待命：等待網站更新需求"
+    },
+    "warehouse": {
+      "name": "倉管專員",
+      "status": "working",
+      "task": "規劃貨架儲位：平板燈、燈管、工事燈、空台"
+    },
+    "tender": {
+      "name": "標案小幫手",
+      "status": "idle",
+      "task": "11/21 今日無新標案"
+    }
   },
-  "marketing": {
-   "name": "行銷專員",
-   "status": "waiting",
-   "task": "11/19 粉專短文「辦公室照度」草稿待 Roy 同意發布"
-  },
-  "keyword": {
-   "name": "關鍵字研究專員",
-   "status": "idle",
-   "task": "待命"
-  },
-  "programmer": {
-   "name": "程式專員",
-   "status": "waiting",
-   "task": "3D 倉儲 MVP v0.1 完成（Codex 審 1 輪已修），待 Roy 試用"
-  },
-  "security": {
-   "name": "資訊安全專員",
-   "status": "idle",
-   "task": "待命"
-  },
-  "ops": {
-   "name": "專業經理人",
-   "status": "idle",
-   "task": "3D 倉儲規格 v0.1 已交"
-  },
-  "analyst": {
-   "name": "資料分析專員",
-   "status": "idle",
-   "task": "待命"
-  },
-  "trader": {
-   "name": "程式交易專員",
-   "status": "working",
-   "task": "FinMind 回補持續中，預估 12/13 完成"
-  },
-  "designer": {
-   "name": "美編專員",
-   "status": "idle",
-   "task": "待命"
-  },
-  "erp": {
-   "name": "ERP導入專員",
-   "status": "working",
-   "task": "Odoo 19 導入：查證版本差異、擬導入計畫"
-  },
-  "webmaint": {
-   "name": "網頁維護專員",
-   "status": "idle",
-   "task": "待命：等待網站更新需求"
-  },
-  "warehouse": {
-   "name": "倉管專員",
-   "status": "working",
-   "task": "規劃貨架儲位：平板燈、燈管、工事燈、空台"
-  },
-  "tender": {
-   "name": "標案小幫手",
-   "status": "idle",
-   "task": "11/21 今日無新標案"
-  }
- },
- "events": [
-  {
-   "time": "2026-11-07T20:25:00+08:00",
-   "from": "gm",
-   "to": "trader",
-   "say": "參考開源財報庫，先搭資料層"
-  },
-  {
-   "time": "2026-11-07T20:25:00+08:00",
-   "from": "trader",
-   "to": "security",
-   "say": "請審查套件與腳本"
-  },
-  {
-   "time": "2026-11-08T12:03:00+08:00",
-   "from": "gm",
-   "to": "trader",
-   "say": "先讀懂 TW_Stock，再參考開源庫修改，最後加指標做權重對比"
-  },
-  {
-   "time": "Sun 2026-11-08 12:25 PM CST (UTC+08:00)",
-   "from": "trader",
-   "to": "gm",
-   "say": "階段1說明與30項對照完成（Codex已核對），待Roy確認定義與分點資料來源"
-  },
-  {
-   "time": "Sun 2026-11-08 5:53 PM CST (UTC+08:00)",
-   "from": "trader",
-   "to": "gm",
-   "say": "每日更新程式完成，Codex 審 3 輪通過，已開草稿 PR #1"
-  },
-  {
-   "time": "Sun 2026-11-08 6:00 PM CST (UTC+08:00)",
-   "from": "gm",
-   "to": "trader",
-   "say": "等 Roy merge 與設定 secrets，再手動測試排程"
-  },
-  {
-   "time": "Wed 2026-11-11 2:15 PM CST (UTC+08:00)",
-   "from": "gm",
-   "to": "erp",
-   "say": "新進同仁：負責 Odoo 19 導入專案"
-  },
-  "11/16 GitHub Actions 每日更新成功；PR#2 Codex r5 clean，待 Roy 確認推定參數",
-  {
-   "time": "Tue 2026-11-17 12:15 PM CST (UTC+08:00)",
-   "from": "gm",
-   "to": "warehouse",
-   "say": "新進同仁：負責整理倉庫（庫存整理專案）"
-  },
-  "11/17 18:00 GM 日報",
-  {
-   "time": "Thu 2026-11-19 01:58 AM CST (UTC+08:00)",
-   "from": "trader",
-   "to": "gm",
-   "say": "PR #12 合併 734658e；全分點回補 2026-08-28~11-18 共 54 日上傳 R2（run 44363352976 成功）；需新增 01:00 週二～六 broker-nightly 排程"
-  },
-  {
-   "time": "Thu 2026-11-19 20:44 CST (UTC+08:00)",
-   "from": "trader",
-   "to": "gm",
-   "say": "Draft PR #15 finmind-backfill (Codex r7 P0=0 P1=1 已知風險) + #16 finmind-hotcold (Codex r3 P0 已修/P1=1 已知風險)；需 Roy 決定合併 #15 才能 workflow_dispatch 開跑（Sponsor 12/19 到期，約 18 天）"
-  },
-  {
-   "time": "Fri 2026-11-20 19:10 CST (UTC+08:00)",
-   "from": "gm",
-   "to": "ops",
-   "say": "寫 3D 倉儲系統產品規格"
-  },
-  {
-   "time": "Fri 2026-11-20 19:10 CST (UTC+08:00)",
-   "from": "programmer",
-   "to": "security",
-   "say": "請審 three.js 與 SheetJS"
-  },
-  {
-   "time": "Fri 2026-11-20 19:10 CST (UTC+08:00)",
-   "from": "gm",
-   "to": "programmer",
-   "say": "用中輝 88 項常備品做第一版"
-  },
-  {
-   "time": "Fri 2026-11-20 19:25 CST (UTC+08:00)",
-   "from": "programmer",
-   "to": "gm",
-   "say": "3D 倉儲 MVP v0.1 完成，無頭瀏覽器測試通過"
-  },
-  {
-   "t": "2026-11-20T20:00+08:00",
-   "text": "GM 20:00 回報：回補正常，預估 12/10 完成"
-  },
-  {
-   "t": "2026-11-21T20:00+08:00",
-   "text": "20:00 回報：Actions 仍停，無新進度"
-  },
-  {
-   "t": "Sun 2026-11-22 8:00 AM CST (UTC+08:00)",
-   "text": "08:00 回報：Actions 仍停，無新進度；待 Roy 裝 runner／回報機器名"
-  }
- ]
+  "events": [
+    {
+      "time": "2026-11-07T20:25:00+08:00",
+      "from": "gm",
+      "to": "trader",
+      "say": "參考開源財報庫，先搭資料層"
+    },
+    {
+      "time": "2026-11-07T20:25:00+08:00",
+      "from": "trader",
+      "to": "security",
+      "say": "請審查套件與腳本"
+    },
+    {
+      "time": "2026-11-08T12:03:00+08:00",
+      "from": "gm",
+      "to": "trader",
+      "say": "先讀懂 TW_Stock，再參考開源庫修改，最後加指標做權重對比"
+    },
+    {
+      "time": "Sun 2026-11-08 12:25 PM CST (UTC+08:00)",
+      "from": "trader",
+      "to": "gm",
+      "say": "階段1說明與30項對照完成（Codex已核對），待Roy確認定義與分點資料來源"
+    },
+    {
+      "time": "Sun 2026-11-08 5:53 PM CST (UTC+08:00)",
+      "from": "trader",
+      "to": "gm",
+      "say": "每日更新程式完成，Codex 審 3 輪通過，已開草稿 PR #1"
+    },
+    {
+      "time": "Sun 2026-11-08 6:00 PM CST (UTC+08:00)",
+      "from": "gm",
+      "to": "trader",
+      "say": "等 Roy merge 與設定 secrets，再手動測試排程"
+    },
+    {
+      "time": "Wed 2026-11-11 2:15 PM CST (UTC+08:00)",
+      "from": "gm",
+      "to": "erp",
+      "say": "新進同仁：負責 Odoo 19 導入專案"
+    },
+    "11/16 GitHub Actions 每日更新成功；PR#2 Codex r5 clean，待 Roy 確認推定參數",
+    {
+      "time": "Tue 2026-11-17 12:15 PM CST (UTC+08:00)",
+      "from": "gm",
+      "to": "warehouse",
+      "say": "新進同仁：負責整理倉庫（庫存整理專案）"
+    },
+    "11/17 18:00 GM 日報",
+    {
+      "time": "Thu 2026-11-19 01:58 AM CST (UTC+08:00)",
+      "from": "trader",
+      "to": "gm",
+      "say": "PR #12 合併 734658e；全分點回補 2026-08-28~11-18 共 54 日上傳 R2（run 44363352976 成功）；需新增 01:00 週二～六 broker-nightly 排程"
+    },
+    {
+      "time": "Thu 2026-11-19 20:44 CST (UTC+08:00)",
+      "from": "trader",
+      "to": "gm",
+      "say": "Draft PR #15 finmind-backfill (Codex r7 P0=0 P1=1 已知風險) + #16 finmind-hotcold (Codex r3 P0 已修/P1=1 已知風險)；需 Roy 決定合併 #15 才能 workflow_dispatch 開跑（Sponsor 12/19 到期，約 18 天）"
+    },
+    {
+      "time": "Fri 2026-11-20 19:10 CST (UTC+08:00)",
+      "from": "gm",
+      "to": "ops",
+      "say": "寫 3D 倉儲系統產品規格"
+    },
+    {
+      "time": "Fri 2026-11-20 19:10 CST (UTC+08:00)",
+      "from": "programmer",
+      "to": "security",
+      "say": "請審 three.js 與 SheetJS"
+    },
+    {
+      "time": "Fri 2026-11-20 19:10 CST (UTC+08:00)",
+      "from": "gm",
+      "to": "programmer",
+      "say": "用中輝 88 項常備品做第一版"
+    },
+    {
+      "time": "Fri 2026-11-20 19:25 CST (UTC+08:00)",
+      "from": "programmer",
+      "to": "gm",
+      "say": "3D 倉儲 MVP v0.1 完成，無頭瀏覽器測試通過"
+    },
+    {
+      "t": "2026-11-20T20:00+08:00",
+      "text": "GM 20:00 回報：回補正常，預估 12/10 完成"
+    },
+    {
+      "t": "2026-11-21T20:00+08:00",
+      "text": "20:00 回報：Actions 仍停，無新進度"
+    },
+    {
+      "t": "Sun 2026-11-22 8:00 AM CST (UTC+08:00)",
+      "text": "08:00 回報：Actions 仍停，無新進度；待 Roy 裝 runner／回報機器名"
+    }
+  ]
 }
