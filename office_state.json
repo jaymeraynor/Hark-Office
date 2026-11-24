@@ -1,10 +1,10 @@
 {
-  "updated": "Tue 2026-11-24 1:10 PM CST",
+  "updated": "Tue 2026-11-24 5:06 PM CST",
   "roles": {
     "gm": {
       "name": "總經理",
       "status": "working",
-      "task": "巡查完成：官網30年已改，待Roy清Varnish"
+      "task": "巡查完成：無新變化，待Roy事項同前"
     },
     "marketing": {
       "name": "行銷專員",
