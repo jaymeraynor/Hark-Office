@@ -1,10 +1,10 @@
 {
- "updated": "Wed 2026-11-25 9:12 AM CST (UTC+08:00)",
+ "updated": "2026-11-26T08:10:00+08:00",
  "roles": {
   "gm": {
    "name": "總經理",
-   "status": "idle",
-   "task": "巡查完成：官網24篇翻譯上線，待清Varnish"
+   "status": "working",
+   "task": "08:00 進度回報"
   },
   "marketing": {
    "name": "行銷專員",
@@ -39,7 +39,7 @@
   "trader": {
    "name": "程式交易專員",
    "status": "working",
-   "task": "FinMind 分點回補進行中（runner tw-stock-home）"
+   "task": "FinMind 分點回補 134/約1238 日"
   },
   "designer": {
    "name": "美編專員",
